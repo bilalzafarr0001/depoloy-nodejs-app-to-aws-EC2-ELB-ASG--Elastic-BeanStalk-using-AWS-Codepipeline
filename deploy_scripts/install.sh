@@ -12,9 +12,8 @@ nvm install 16
 npm install 
 npm install -g pm2
 pm2 update
-cd /home/ec2-user/node
-# npm install
-npm start
+
+
 # delete existing bundle
-# cd /home/ec2-user
-# rm -rf node
+cd /home/ec2-user
+rm -rf node
