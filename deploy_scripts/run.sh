@@ -4,5 +4,5 @@
 # nvm install --lts
 # nvm install 16
 cd /home/ec2-user/node
-npm install
-npm start
+sudo npm install
+sudo npm start

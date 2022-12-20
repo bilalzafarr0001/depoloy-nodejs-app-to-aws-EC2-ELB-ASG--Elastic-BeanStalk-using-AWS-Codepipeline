@@ -9,8 +9,8 @@ nvm install --lts
 nvm install 16
  
 # install pm2 module globaly
-npm install 
-npm install -g pm2
+sudo npm install 
+sudo npm install -g pm2
 pm2 update
 
 
