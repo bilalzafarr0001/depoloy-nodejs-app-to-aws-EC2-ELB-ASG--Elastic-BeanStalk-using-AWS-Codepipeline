@@ -4,5 +4,5 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 nvm install --lts
 nvm install 16
 cd /home/ec2-user/node
-npm install
+# npm install
 npm start
