@@ -9,9 +9,10 @@ nvm install --lts
 nvm install 12
  
 # install pm2 module globaly
+npm install 
 npm install -g pm2
 pm2 update
 
 # delete existing bundle
 cd /home/ec2-user
-rm -rf node
+# rm -rf node
