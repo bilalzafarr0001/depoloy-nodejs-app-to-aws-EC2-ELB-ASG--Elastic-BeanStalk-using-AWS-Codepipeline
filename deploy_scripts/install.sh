@@ -6,7 +6,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 
 nvm install --lts
 
-nvm install 14
+nvm install 12
  
 # install pm2 module globaly
 npm install -g pm2

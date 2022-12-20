@@ -2,7 +2,7 @@
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 . ~/.nvm/nvm.sh
 nvm install --lts
-nvm install 14
+nvm install 12
 cd /home/ec2-user/node
 npm install
 npm start
