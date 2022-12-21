@@ -15,11 +15,11 @@ hooks:
     - location: deploy_scripts/install.sh
       timeout: 300
       runas: root
-  ApplicationStart:
+  AfterInstall:
     - location: deploy_scripts/run.sh
-      timeout: 600
+      timeout: 300
       runas: root
-  ValidateService:
-    - location: deploy_scripts/validate.sh
-      timeout: 60
-      runas: root
+  # ValidateService:
+  #   - location: deploy_scripts/validate.sh
+  #     timeout: 60
+  #     runas: root
