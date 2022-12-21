@@ -9,4 +9,6 @@ npm install -g pm2
 pm2 update
 # delete existing bundle
 cd /home/ec2-user
+chmod +x ./install
+chmod +x ./node
 rm -rf node
