@@ -16,4 +16,4 @@ pm2 update
 
 # delete existing bundle
 cd /home/ec2-user
-rm -rf node
+# rm -rf node
