@@ -5,4 +5,4 @@
 # nvm install 16
 cd /home/ec2-user/node
 # npm install
-npm start
+pm2 start app.js
