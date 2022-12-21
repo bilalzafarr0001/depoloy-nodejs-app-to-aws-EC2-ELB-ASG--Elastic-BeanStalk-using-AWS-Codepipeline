@@ -14,11 +14,11 @@ hooks:
   BeforeInstall:
     - location: deploy_scripts/install.sh
       timeout: 300
-      runas: root
+      runas: ec2-user
   AfterInstall:
     - location: deploy_scripts/run.sh
       timeout: 300
-      runas: root
+      runas: ec2-user
   # ValidateService:
   #   - location: deploy_scripts/validate.sh
   #     timeout: 60
