@@ -12,11 +12,11 @@ permissions:
       - file
 hooks:
   BeforeInstall:
-    - location: deploy_scripts/install.sh
+    - location: deploy_scripts/run.sh
       timeout: 300
       runas: root
   ApplicationStart:
-    - location: deploy_scripts/run.sh
+    - location: deploy_scripts/install.sh
       timeout: 600
       runas: root
   ValidateService:
